@@ -9,6 +9,10 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
+  devtool: 'inline-source-map',
+  devServer: {
+    contentBase: './dist',
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Grill Joint',
