@@ -1,3 +1,6 @@
-import "./main.scss";
+import './main.scss';
 
-alert('Yooooo!!!!11112222')
+const p = document.querySelector('.container');
+const p1 = document.createElement('p');
+p1.textContent = 'From Wandji';
+p.appendChild(p1);
