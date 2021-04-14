@@ -1,12 +1,7 @@
 import './main.scss';
 import home from './home';
+// import footer from './footer';
+// import header from './header';
 
 
-// function start(){
-//   header();
-//   home();
-//   footer();
-// }
-// start();
-
-  home();
+home();
