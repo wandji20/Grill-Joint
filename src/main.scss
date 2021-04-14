@@ -1,1 +1,41 @@
 @import "bootstrap/scss/bootstrap";
+
+.navbar {
+  background: #111;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#content {
+  margin-top: 70px;
+}
+
+#menu {
+  height: 90vh;
+  display: grid;
+  grid: 1fr;
+  // background: url("../assets/porc.jpg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+}
+
+.img-fluid {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.menu-text {
+  position: absolute;
+  bottom: 2.5em;
+  left: 2.5em;
+}
+
+.remove-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
