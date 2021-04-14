@@ -1,5 +1,6 @@
-import menu from './menu'
-import contact from './contact'
+import menu from './menu';
+import contact from './contact';
+import home from './home';
 
 function header(){
   const content = document.getElementById('content');
@@ -33,8 +34,15 @@ function header(){
   header.appendChild(nav);
   
   content.appendChild(header);
-  const homeBtn = document.querySelector('.menu-link')
-  homeBtn.addEventListener('click', menu);
+
+  const menuBtn = document.querySelector('.menu-link');
+  menuBtn.addEventListener('click', menu);
+  
+  const homeBtn = document.querySelector('.home-link')
+  homeBtn.addEventListener('click', home);
+
+  const contactBtn = document.querySelector('.contact-link')
+  contactBtn.addEventListener('click', contact);
 
 }
 
