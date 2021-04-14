@@ -1,5 +1,12 @@
+import "../assets/porc.jpg";
+import "../assets/turkey.jpg";
+import header from './header'
+import footer from './footer'
+
 function menu(){
   const content = document.getElementById('content');
+  content.textContent = '';
+  header();
   const section = document.createElement('section');
   section.setAttribute('id', 'menu');
   section.setAttribute('class', 'container-fluid remove-padding');
@@ -25,7 +32,7 @@ function menu(){
   const item2Img = item2.appendChild(document.createElement('div'));
   const img2 = item2Img.appendChild(document.createElement('img'))
   img2.setAttribute('class', 'img-fluid');
-  img2.setAttribute('src', '../assets/porc.jpg' )
+  img2.setAttribute('src', '../assets/turkey.jpg' )
   const item2Content = item2.appendChild(document.createElement('div'));
   item2Content.setAttribute('class', 'item-content d-flex justify-content-between bg-dark text-light')
   const item2P1 = item2Content.appendChild(document.createElement('p'));
@@ -81,7 +88,7 @@ function menu(){
   
   
   content.appendChild(section);
-  
+  footer();
 }
 
 

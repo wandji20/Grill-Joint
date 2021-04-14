@@ -1,20 +1,12 @@
 import './main.scss';
-import "../assets/chicken.jpg";
-import header from './header'
-import home from './home'
-import footer from './footer'
-import menu from './menu'
-import contact from './contact'
+import home from './home';
 
 
+// function start(){
+//   header();
+//   home();
+//   footer();
+// }
+// start();
 
-
-
-
-
-
-header();
-// home();
-// menu();
-contact();
-footer();
+  home();

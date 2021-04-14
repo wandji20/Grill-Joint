@@ -1,3 +1,6 @@
+import menu from './menu'
+import contact from './contact'
+
 function header(){
   const content = document.getElementById('content');
   const header = document.createElement('header')
@@ -21,14 +24,17 @@ function header(){
   menuLink.setAttribute('class', 'h4 d-none d-md-inline menu-link');
   nav.appendChild(menuLink);
 
+  
   let contactLink = document.createElement('a');
   contactLink.textContent = 'CONTACT US';
   contactLink.setAttribute('class', 'h4 contact-link d-none d-md-inline');
   nav.appendChild(contactLink);
-
+  
   header.appendChild(nav);
-
+  
   content.appendChild(header);
+  const homeBtn = document.querySelector('.menu-link')
+  homeBtn.addEventListener('click', menu);
 
 }
 
