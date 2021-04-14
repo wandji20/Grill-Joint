@@ -8,20 +8,74 @@
     <header class='header'>
       <nav class="navbar navbar-expand-md navbar-dark justify-content-around">
         <a class="nav-link h4 text-center" href="#">Grill Joint</a>
-        <a class="nav-link h4 text-center" href="#">HOME</a>
-        <a class="nav-link h4 text-center" href="#">MENU</a>
-        <a class="nav-link h4 text-center" href="#">CONTACT US</a>
+        <a class="nav-link d-none d-md-block h4 text-center" href="#">HOME</a>
+        <a class="nav-link d-none d-md-block h4 text-center" href="#">MENU</a>
+        <a class="nav-link d-none d-md-block h4 text-center" href="#">CONTACT US</a>
       </nav>
     </header>
     <div id="content" >
-      <section id="menu">
-        <div class="menu-text">
+      <section id="home" class='d-none'>
+        <div class="home-text">
           <h3 class='h1'>Grill Unlike Any</h3>
           <h4>Extremely Yummy</h4>
           <button class='btn bg-light text-center'>Order Now</button>
         </div>
       </section>
-      
+      <section id="menu" class='container-fluid remove-padding'>
+        <div class="menu-item">
+          <div class="item-img">
+            <img class='img-fluid' src="../assets/porc.jpg" alt="">
+          </div>
+          <div class="item-content d-flex justify-content-between bg-dark text-light">
+            <p>Porc</p>
+            <p class='btn text-light '><span>4000</span><span>Frs</span></p>
+          </div>
+        </div>
+        <div class="menu-item ">
+          <div class="item-img">
+            <img class='img-fluid' src="../assets/chicken.jpg" alt="">
+          </div>
+          <div class="item-content d-flex justify-content-between bg-dark text-light">
+            <p>Chicken</p>
+            <p class='btn text-light '><span>3500</span><span>Frs</span></p>
+          </div>
+        </div>
+        <div class="menu-item ">
+          <div class="item-img">
+            <img class='img-fluid' src="../assets/porc.jpg" alt="">
+          </div>
+          <div class="item-content d-flex justify-content-between bg-dark text-light">
+            <p>Goat</p>
+            <p class='btn text-light '><span>5000</span><span>Frs</span></p>
+          </div>
+        </div>
+        <div class="menu-item ">
+          <div class="item-img">
+            <img class='img-fluid' src="../assets/porc.jpg" alt="">
+          </div>
+          <div class="item-content d-flex justify-content-between bg-dark text-light">
+            <p>Sheep</p>
+            <p class='btn text-light '><span>5500</span><span>Frs</span></p>
+          </div>
+        </div>
+        <div class="menu-item ">
+          <div class="item-img">
+            <img class='img-fluid' src="../assets/porc.jpg" alt="">
+          </div>
+          <div class="item-content d-flex justify-content-between bg-dark text-light">
+            <p>Beef</p>
+            <p class='btn text-light '><span>4500</span><span>Frs</span></p>
+          </div>
+        </div>
+
+      </section>
     </div>
+    <footer>
+      <ul class='d-flex justify-content-around my-auto'>
+        <li>email</li>
+        <li>icon</li>
+        <li>icon</li>
+      </ul>
+    </footer>
   </body>
 </html>
