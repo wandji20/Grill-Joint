@@ -21,7 +21,7 @@
 #home,
 #contact {
   display: grid;
-  grid: 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 92vh;
   background: url("../assets/porc.jpg");
   background-size: cover;
@@ -46,6 +46,7 @@ footer {
   color: white;
   background: #333;
 }
+
 footer li {
   list-style-type: none;
 }
