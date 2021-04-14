@@ -1,30 +1,12 @@
 import './main.scss';
 import "../assets/chicken.jpg";
 import header from './header'
+import home from './home'
 
 
 
 
 
-function home(){
-  const content = document.getElementById('content');
-  const section = document.createElement('section');
-  section.setAttribute('id', 'home');
-
-  const homeText = document.createElement('div');
-  homeText.setAttribute('class', 'home-text');
-
-  const homeH4 = document.createElement('h3');
-  homeH4.textContent = 'Grill Unlike Any';
-  const homeH5 = document.createElement('h3');
-  homeH5.textContent = 'Very Yummy'
-
-  homeText.appendChild(homeH4);
-  homeText.appendChild(homeH5);
-
-  section.appendChild(homeText)
-  content.appendChild(section)
-}
 
 function menu(){
   const content = document.getElementById('content');
@@ -156,7 +138,7 @@ function contact(){
 
 
 header();
-// home();
+home();
 // menu();
-contact();
+// contact();
 footer();
