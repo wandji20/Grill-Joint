@@ -3,8 +3,8 @@ import contact from './contact';
 import home from './home';
 
 function header() {
-  const content = document.getElementById('content');
-  const header = document.createElement('header');
+  const body = document.getElementsByTagName('body')[0];
+  const header = body.appendChild(document.createElement('header'));
   header.setAttribute('class', 'header');
   const nav = document.createElement('nav');
   nav.setAttribute('class', 'navbar navbar-expand-md navbar-dark justify-content-around');
@@ -33,13 +33,8 @@ function header() {
 
   header.appendChild(nav);
 
-  content.appendChild(header);
-
   const menuBtn = document.querySelector('.menu-link');
   menuBtn.addEventListener('click', menu);
-  // menuBtn.addEventListener('click', (e)=>{
-  //   console.log(e.target)
-  // });
 
   const homeBtn = document.querySelector('.home-link');
   homeBtn.addEventListener('click', home);

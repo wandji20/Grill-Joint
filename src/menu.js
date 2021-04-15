@@ -1,12 +1,10 @@
 import '../assets/porc.jpg';
 import '../assets/turkey.jpg';
-import header from './header';
-import footer from './footer';
 
 function menu() {
   const content = document.getElementById('content');
   content.textContent = '';
-  header();
+
   const section = document.createElement('section');
   section.setAttribute('id', 'menu');
   section.setAttribute('class', 'container-fluid remove-padding');
@@ -86,7 +84,6 @@ function menu() {
 
 
   content.appendChild(section);
-  footer();
 }
 
 

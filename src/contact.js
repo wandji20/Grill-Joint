@@ -1,10 +1,6 @@
-import footer from './footer';
-import header from './header';
-
 function contact() {
   const content = document.getElementById('content');
   content.textContent = '';
-  header();
   const section = document.createElement('section');
   section.setAttribute('id', 'contact');
   section.setAttribute('class', 'container-fluid remove-padding');
@@ -22,7 +18,7 @@ function contact() {
   instagram.textContent = 'Instagram: Mr_Grill';
 
   content.appendChild(section);
-  footer();
+  // footer();
 }
 
 export default contact;

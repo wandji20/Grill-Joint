@@ -1,10 +1,7 @@
-import footer from './footer';
-import header from './header';
-
 function home() {
   const content = document.getElementById('content');
   content.textContent = '';
-  header();
+
   const section = document.createElement('section');
   section.setAttribute('id', 'home');
 
@@ -23,7 +20,7 @@ function home() {
   section.appendChild(homeText);
   content.appendChild(section);
 
-  footer();
+  // footer();
 }
 
 export default home;
