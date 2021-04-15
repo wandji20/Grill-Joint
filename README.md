@@ -38,6 +38,10 @@ Else
 
 - Just Go to the dist folder and open index.html
 
+## Live Link of the project
+
+- https://607807faaca5fab9f4aad741--xenodochial-mirzakhani-e7f639.netlify.app/
+
 ## Author
 
 👤 **Wandji Bertrand**
