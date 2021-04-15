@@ -19,7 +19,6 @@ function home() {
 
   section.appendChild(homeText);
   content.appendChild(section);
-
 }
 
 export default home;
