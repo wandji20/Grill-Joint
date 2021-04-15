@@ -1,1 +1,61 @@
 @import "bootstrap/scss/bootstrap";
+
+.navbar {
+  background: #111;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.remove-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#content {
+  margin-top: 70px;
+}
+
+#home,
+#contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 92vh;
+  background: url("../assets/porc.jpg");
+  background-size: cover;
+}
+
+.home-text {
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 140%;
+  font-weight: 700;
+}
+
+#menu {
+  p {
+    margin: auto 10px;
+  }
+}
+
+footer {
+  height: 50px;
+  color: white;
+  background: #333;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #menu {
+    background: #111;
+    grid-gap: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,6 +1,8 @@
 import './main.scss';
+import home from './home';
+import header from './header';
+import footer from './footer';
 
-const p = document.querySelector('.container');
-const p1 = document.createElement('p');
-p1.textContent = 'From Wandji';
-p.appendChild(p1);
+header();
+home();
+footer();
