@@ -18,7 +18,6 @@ function contact() {
   instagram.textContent = 'Instagram: Mr_Grill';
 
   content.appendChild(section);
-  // footer();
 }
 
 export default contact;
